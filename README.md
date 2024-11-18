@@ -1,0 +1,2 @@
+# LaLa-java-work
+スッキリJavaのコード
