@@ -6,7 +6,8 @@ public class Main {
     String s = switch (fortune) {
       case 1, 2 -> "大吉";
       case 3 -> "吉";
-      default -> "凶"; 
+      case 4, 5 -> "凶";
+      default -> "その他"; 
     };  // switch end
     System.out.println(s);
   }  // main end
